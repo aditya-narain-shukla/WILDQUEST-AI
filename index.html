@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1410">
+
+    <title>WILDQUEST AI — Touch Grass</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="noise"></div>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="topbar">
+
+        <a href="#" class="brand" data-view="home">
+
+            <span class="brand-mark">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+            <span>
+                WILDQUEST<span class="brand-ai">AI</span>
+            </span>
+
+        </a>
+
+        <nav class="desktop-nav">
+
+            <button class="nav-link active" data-view="home">
+                Explore
+            </button>
+
+            <button class="nav-link" data-view="missions">
+                Missions
+            </button>
+
+            <button class="nav-link" data-view="progress">
+                Progress
+            </button>
+
+        </nav>
+
+        <div class="top-actions">
+
+            <div class="xp-pill">
+                <span class="mini-spark">✦</span>
+                <span id="headerXp">320</span> XP
+            </div>
+
+            <button class="icon-btn" id="themeBtn" title="Toggle appearance">
+                ◐
+            </button>
+
+            <button class="avatar" data-view="progress">
+                AN
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HOME ================= -->
+
+        <section class="view active" id="homeView">
+
+            <div class="hero-grid">
+
+                <div class="hero-copy">
+
+                    <div class="eyebrow">
+                        <span class="pulse-dot"></span>
+                        OPEN AI • OUTDOOR MODE
+                    </div>
+
+                    <h1>
+                        Your AI gives you the mission.
+                        <br>
+                        <em>The real world gives you the answer.</em>
+                    </h1>
+
+                    <p class="hero-text">
+                        WILDQUEST AI creates short, real-world challenges
+                        that get you moving, noticing, and exploring.
+                        Your screen is only the starting point.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <button class="primary-btn large" id="startBtn">
+
+                            Start an adventure
+                            <span>↗</span>
+
+                        </button>
+
+                        <button class="ghost-btn large" data-view="missions">
+
+                            Browse missions
+
+                        </button>
+
+                    </div>
+
+                    <div class="trust-row">
+
+                        <span>
+                            <i>✓</i>
+                            Local-first ready
+                        </span>
+
+                        <span>
+                            <i>✓</i>
+                            Privacy focused
+                        </span>
+
+                        <span>
+                            <i>✓</i>
+                            Built for outside
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO ART -->
+
+                <div class="hero-art">
+
+                    <div class="sun"></div>
+
+                    <div class="mountain mountain-back"></div>
+                    <div class="mountain mountain-front"></div>
+
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+
+                    <div class="floating-card card-ai">
+
+                        <span class="card-icon">✦</span>
+
+                        <div>
+                            <strong>AI MISSION</strong>
+                            <small>Generated for you</small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card card-xp">
+
+                        <span class="xp-icon">+100</span>
+
+                        <div>
+                            <strong>XP EARNED</strong>
+                            <small>Adventure complete</small>
+                        </div>
+
+                    </div>
+
+                    <div class="hero-compass">
+                        N
+                    </div>
+
+                    <div class="hero-caption">
+                        <span></span>
+                        Somewhere worth exploring
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HOW IT WORKS -->
+
+            <div class="section-head">
+
+                <div>
+
+                    <span class="eyebrow">
+                        HOW IT WORKS
+                    </span>
+
+                    <h2>
+                        Make the screen the shortest part.
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="steps-grid">
+
+                <article class="step-card">
+
+                    <span class="step-number">
+                        01
+                    </span>
+
+                    <div class="step-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Get a mission
+                    </h3>
+
+                    <p>
+                        AI creates a challenge based on your
+                        time, mood, and difficulty.
+                    </p>
+
+                </article>
+
+
+                <article class="step-card featured">
+
+                    <span class="step-number">
+                        02
+                    </span>
+
+                    <div class="step-icon">
+                        ↗
+                    </div>
+
+                    <h3>
+                        Go outside
+                    </h3>
+
+                    <p>
+                        Put your phone away. Walk, observe,
+                        listen, discover something real.
+                    </p>
+
+                </article>
+
+
+                <article class="step-card">
+
+                    <span class="step-number">
+                        03
+                    </span>
+
+                    <div class="step-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Come back & prove it
+                    </h3>
+
+                    <p>
+                        Submit a photo or reflection.
+                        AI checks the evidence and awards XP.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <div class="feature-strip">
+
+                <div>
+                    <span>01</span>
+                    <strong>Offline-first</strong>
+                    <small>Designed for weak/no signal</small>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <strong>Private by design</strong>
+                    <small>Your evidence can stay local</small>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <strong>Open AI core</strong>
+                    <small>Swap models. Change behavior.</small>
+                </div>
+
+                <div>
+                    <span>04</span>
+                    <strong>Real-world rewards</strong>
+                    <small>Progress follows exploration</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MISSIONS ================= -->
+
+        <section class="view" id="missionsView">
+
+            <div class="page-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        MISSION LIBRARY
+                    </span>
+
+                    <h1>
+                        Choose your kind of wild.
+                    </h1>
+
+                    <p>
+                        Every mission is designed to be completed
+                        away from the screen.
+                    </p>
+
+                </div>
+
+                <button class="primary-btn" id="generateMissionBtn">
+
+                    ✦ Generate with AI
+
+                </button>
+
+            </div>
+
+
+            <div class="filter-row" id="missionFilters">
+
+                <button class="filter active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter" data-filter="nature">
+                    Nature
+                </button>
+
+                <button class="filter" data-filter="observe">
+                    Observation
+                </button>
+
+                <button class="filter" data-filter="photo">
+                    Photography
+                </button>
+
+                <button class="filter" data-filter="walk">
+                    Movement
+                </button>
+
+            </div>
+
+
+            <div class="mission-grid" id="missionGrid">
+            </div>
+
+        </section>
+
+
+        <!-- ================= SETUP ================= -->
+
+        <section class="view" id="setupView">
+
+            <div class="setup-wrap">
+
+                <button class="back-link" data-view="home">
+
+                    ← Back
+
+                </button>
+
+                <div class="setup-heading">
+
+                    <span class="eyebrow">
+                        NEW ADVENTURE
+                    </span>
+
+                    <h1>
+                        How wild are we going?
+                    </h1>
+
+                    <p>
+                        Set the boundaries. Let WILDQUEST
+                        create the mission.
+                    </p>
+
+                </div>
+
+
+                <div class="setup-grid">
+
+
+                    <!-- TIME + DIFFICULTY -->
+
+                    <div class="setup-panel">
+
+                        <label class="field-label">
+                            TIME AVAILABLE
+                        </label>
+
+                        <div class="choice-grid" id="timeChoices">
+
+                            <button class="choice" data-value="5">
+                                5 min
+                            </button>
+
+                            <button class="choice selected" data-value="10">
+                                10 min
+                            </button>
+
+                            <button class="choice" data-value="20">
+                                20 min
+                            </button>
+
+                            <button class="choice" data-value="30">
+                                30 min
+                            </button>
+
+                        </div>
+
+
+                        <label class="field-label">
+                            DIFFICULTY
+                        </label>
+
+                        <div class="difficulty-list" id="difficultyChoices">
+
+
+                            <button class="difficulty selected" data-value="easy">
+
+                                <span class="difficulty-dot easy-dot"></span>
+
+                                <span>
+                                    <strong>Easy</strong>
+                                    <small>
+                                        Notice something close by
+                                    </small>
+                                </span>
+
+                                <b>1×</b>
+
+                            </button>
+
+
+                            <button class="difficulty" data-value="medium">
+
+                                <span class="difficulty-dot medium-dot"></span>
+
+                                <span>
+                                    <strong>Medium</strong>
+                                    <small>
+                                        Explore a little further
+                                    </small>
+                                </span>
+
+                                <b>1.5×</b>
+
+                            </button>
+
+
+                            <button class="difficulty" data-value="hard">
+
+                                <span class="difficulty-dot hard-dot"></span>
+
+                                <span>
+                                    <strong>Hard</strong>
+                                    <small>
+                                        Think, move, discover
+                                    </small>
+                                </span>
+
+                                <b>2×</b>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- STYLE -->
+
+                    <div class="setup-panel">
+
+                        <label class="field-label">
+                            MISSION STYLE
+                        </label>
+
+                        <div class="style-grid" id="styleChoices">
+
+                            <button class="style-choice selected" data-value="random">
+
+                                <span>✦</span>
+                                Random
+
+                            </button>
+
+                            <button class="style-choice" data-value="nature">
+
+                                <span>♧</span>
+                                Nature
+
+                            </button>
+
+                            <button class="style-choice" data-value="observe">
+
+                                <span>◉</span>
+                                Observe
+
+                            </button>
+
+                            <button class="style-choice" data-value="photo">
+
+                                <span>⌾</span>
+                                Photo
+
+                            </button>
+
+                            <button class="style-choice" data-value="walk">
+
+                                <span>⌁</span>
+                                Walk
+
+                            </button>
+
+                        </div>
+
+
+                        <div class="ai-preview">
+
+                            <div class="ai-preview-icon">
+                                ✦
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    AI will adapt the mission
+                                </strong>
+
+                                <p>
+                                    It will balance challenge,
+                                    safety, and variety so you
+                                    don't get the same quest twice.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <button class="primary-btn full" id="createAdventureBtn">
+
+                            Create my mission
+                            <span>→</span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ACTIVE MISSION ================= -->
+
+        <section class="view" id="activeView">
+
+            <div class="mission-shell">
+
+                <div class="mission-topline">
+
+                    <button class="back-link" data-view="home">
+
+                        ← Exit mission
+
+                    </button>
+
+                    <div class="offline-status">
+
+                        <span></span>
+                        Local-first mode
+
+                    </div>
+
+                </div>
+
+
+                <div class="mission-hero">
+
+                    <div class="mission-meta">
+
+                        <span class="tag" id="activeTag">
+
+                            OBSERVATION
+
+                        </span>
+
+                        <span class="mission-id" id="activeId">
+
+                            MISSION #018
+
+                        </span>
+
+                    </div>
+
+
+                    <h1 id="activeTitle">
+                        Find something outside that shows
+                        how nature adapts.
+                    </h1>
+
+
+                    <p id="activeDescription">
+
+                        Look closely. Your answer could be
+                        a plant, a rock, an insect, a path,
+                        or anything else that tells a story
+                        of adaptation.
+
+                    </p>
+
+
+                    <div class="mission-stats">
+
+                        <div>
+                            <span>TIME</span>
+                            <strong id="activeTime">
+                                10:00
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>REWARD</span>
+                            <strong id="activeReward">
+                                +100 XP
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>LEVEL</span>
+                            <strong id="activeDifficulty">
+                                EASY
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="mission-command">
+
+                    <div class="command-circle">
+
+                        <div class="command-inner">
+                            GO
+                        </div>
+
+                    </div>
+
+
+                    <div class="command-copy">
+
+                        <span>
+                            THE RULE
+                        </span>
+
+                        <h2>
+                            Put your phone away.
+                        </h2>
+
+                        <p>
+                            Walk. Look around.
+                            Let your surroundings answer the question.
+                        </p>
+
+                    </div>
+
+
+                    <button class="primary-btn large" id="beginMissionBtn">
+
+                        Start timer
+                        <span>→</span>
+
+                    </button>
+
+                </div>
+
+
+                <div class="mission-safety">
+
+                    <span>✦</span>
+
+                    Stay in public/safe areas.
+                    Never approach wildlife, cross unsafe roads,
+                    or enter restricted property.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TIMER ================= -->
+
+        <section class="view" id="timerView">
+
+            <div class="timer-screen">
+
+                <div class="timer-top">
+
+                    <span class="tag">
+                        OUTDOOR MODE
+                    </span>
+
+                    <button class="ghost-btn" id="finishEarlyBtn">
+
+                        Finish early
+
+                    </button>
+
+                </div>
+
+
+                <div class="timer-orbit">
+
+                    <div class="timer-ring"></div>
+
+                    <div class="timer-content">
+
+                        <span>
+                            MISSION IN PROGRESS
+                        </span>
+
+                        <strong id="timerDisplay">
+                            10:00
+                        </strong>
+
+                        <small id="timerHint">
+                            Look up. Notice something
+                            you normally miss.
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <h1 id="timerTitle">
+                    Find something that shows
+                    how nature adapts.
+                </h1>
+
+                <p class="timer-sub">
+                    The screen is now optional.
+                    Come back when you've got your answer.
+                </p>
+
+
+                <button class="primary-btn large" id="submitEvidenceBtn">
+
+                    I'm back — submit evidence
+                    <span>→</span>
+
+                </button>
+
+
+                <div class="timer-footer">
+
+                    <span>☼</span>
+                    Your adventure is happening outside.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EVIDENCE ================= -->
+
+        <section class="view" id="evidenceView">
+
+            <div class="evidence-wrap">
+
+                <div class="setup-heading">
+
+                    <span class="eyebrow">
+                        MISSION COMPLETE?
+                    </span>
+
+                    <h1>
+                        Show us what you found.
+                    </h1>
+
+                    <p>
+                        Your evidence can be a photo
+                        or a short reflection.
+                    </p>
+
+                </div>
+
+
+                <div class="evidence-grid">
+
+
+                    <div class="upload-card" id="uploadCard">
+
+                        <input type="file" id="evidenceInput" accept="image/*" hidden>
+
+
+                        <div id="uploadEmpty">
+
+                            <div class="upload-icon">
+                                ⌾
+                            </div>
+
+                            <h3>
+                                Drop a photo here
+                            </h3>
+
+                            <p>
+                                or choose an image from your device
+                            </p>
+
+                            <button class="secondary-btn" id="choosePhotoBtn">
+
+                                Choose photo
+
+                            </button>
+
+                        </div>
+
+
+                        <img id="evidencePreview" alt="Evidence preview" hidden>
+
+
+                        <button class="remove-photo" id="removePhotoBtn" hidden>
+
+                            ×
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="reflection-card">
+
+                        <label class="field-label" for="reflectionInput">
+
+                            WHAT DID YOU NOTICE?
+
+                        </label>
+
+
+                        <textarea id="reflectionInput" maxlength="280"
+                            placeholder="Example: I found a plant growing through a crack in the pavement..."></textarea>
+
+
+                        <div class="char-count">
+
+                            <span id="charCount">
+                                0
+                            </span>
+                            /280
+
+                        </div>
+
+
+                        <div class="verification-note">
+
+                            <span>✦</span>
+
+                            <div>
+
+                                <strong>
+                                    AI verification
+                                </strong>
+
+                                <p>
+                                    In the full build,
+                                    an open-weight vision model
+                                    can evaluate your photo locally.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <button class="primary-btn full" id="verifyBtn">
+
+                            Verify my mission
+                            <span>→</span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESULT ================= -->
+
+        <section class="view" id="resultView">
+
+            <div class="result-wrap">
+
+                <div class="success-orb">
+
+                    <span>
+                        ✓
+                    </span>
+
+                </div>
+
+
+                <span class="eyebrow">
+                    MISSION VERIFIED
+                </span>
+
+
+                <h1>
+                    Nice work.
+                    You touched grass.
+                </h1>
+
+
+                <p id="resultMessage">
+                    Your evidence matches
+                    the spirit of the mission.
+                </p>
+
+
+                <div class="result-stats">
+
+                    <div>
+
+                        <span>
+                            XP EARNED
+                        </span>
+
+                        <strong id="resultXp">
+                            +100
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            OUTDOOR TIME
+                        </span>
+
+                        <strong id="resultTime">
+                            10 min
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            MISSIONS
+                        </span>
+
+                        <strong id="resultMissions">
+                            8
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="result-quote">
+
+                    <span>
+                        “
+                    </span>
+
+                    <p id="resultQuote">
+                        The best discoveries are
+                        the ones you almost walked past.
+                    </p>
+
+                </div>
+
+
+                <div class="hero-actions centered">
+
+                    <button class="primary-btn large" id="nextAdventureBtn">
+
+                        Another adventure
+                        <span>→</span>
+
+                    </button>
+
+                    <button class="ghost-btn large" data-view="progress">
+
+                        View progress
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROGRESS ================= -->
+
+        <section class="view" id="progressView">
+
+            <div class="page-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        YOUR TRAIL
+                    </span>
+
+                    <h1>
+                        Keep exploring.
+                    </h1>
+
+                    <p>
+                        Progress is measured in moments
+                        outside, not screen time.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="profile-grid">
+
+                <div class="profile-card">
+
+                    <div class="profile-avatar">
+                        AN
+                    </div>
+
+                    <div>
+
+                        <span class="eyebrow">
+                            CURRENT LEVEL
+                        </span>
+
+                        <h2>
+                            Explorer
+                        </h2>
+
+                        <p>
+                            Keep noticing the little things.
+                        </p>
+
+                    </div>
+
+                    <div class="level-number">
+                        02
+                    </div>
+
+
+                    <div class="level-progress">
+
+                        <span id="levelBar"></span>
+
+                    </div>
+
+
+                    <small>
+
+                        <b id="profileXp">
+                            320
+                        </b>
+
+                        / 500 XP to Naturalist
+
+                    </small>
+
+                </div>
+
+
+                <div class="stats-card">
+
+                    <div>
+
+                        <span class="stat-icon">
+                            ✦
+                        </span>
+
+                        <strong id="statMissions">
+                            7
+                        </strong>
+
+                        <small>
+                            Missions
+                        </small>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="stat-icon">
+                            ◷
+                        </span>
+
+                        <strong id="statMinutes">
+                            70
+                        </strong>
+
+                        <small>
+                            Minutes outside
+                        </small>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="stat-icon">
+                            ♧
+                        </span>
+
+                        <strong id="statDiscoveries">
+                            12
+                        </strong>
+
+                        <small>
+                            Discoveries
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-section">
+
+                <div class="section-head compact">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            ACHIEVEMENTS
+                        </span>
+
+                        <h2>
+                            Small wins. Real world.
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="achievement-grid">
+
+
+                    <div class="achievement unlocked">
+
+                        <span>🌱</span>
+
+                        <strong>
+                            First Step
+                        </strong>
+
+                        <small>
+                            Complete your first mission
+                        </small>
+
+                    </div>
+
+
+                    <div class="achievement unlocked">
+
+                        <span>👀</span>
+
+                        <strong>
+                            Notice More
+                        </strong>
+
+                        <small>
+                            Complete 5 observation missions
+                        </small>
+
+                    </div>
+
+
+                    <div class="achievement unlocked">
+
+                        <span>🚶</span>
+
+                        <strong>
+                            Keep Moving
+                        </strong>
+
+                        <small>
+                            Spend 60 minutes outside
+                        </small>
+
+                    </div>
+
+
+                    <div class="achievement locked">
+
+                        <span>🦉</span>
+
+                        <strong>
+                            Night Owl
+                        </strong>
+
+                        <small>
+                            Complete a mission after sunset
+                        </small>
+
+                        <b>
+                            LOCKED
+                        </b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div class="toast" id="toast">
+
+        <span>✦</span>
+
+        <p></p>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+            <span class="brand-dot"></span>
+            WILDQUEST AI
+        </div>
+
+        <p>
+            Open-first. Local-first. Outside-first.
+        </p>
+
+        <span>
+            Hacktoberfest Open-Source AI Challenge • 2026
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
